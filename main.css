@@ -1,0 +1,294 @@
+
+html {
+
+    background: linear-gradient( #91cbdd, #74b2c5,);  
+}
+
+
+ body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #1976D2;
+    font-family:  'Josefin Sans', sans-serif;  
+} 
+
+@media only screen and (max-width: 790px) {
+  .centeredHome {
+    position: relative !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, 200%) !important;
+  }
+
+}
+
+@media only screen and (max-width: 654px) {
+  .centeredHome {
+    position: relative !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, 100%) !important;
+  }
+}
+
+@media only screen and (max-width: 635px) {
+  .centeredHome {
+    position: relative !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -90%) !important;
+  }
+}
+
+@media only screen and (max-width: 465px) {
+h1{
+  font-size: 30px !important;
+}
+  .centeredHome {
+    position: relative !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, 100%) !important;
+  }
+}
+
+.firstDiv{
+font-family: 'Slabo 13px', serif;
+
+}
+h1{
+  font-family: Garamond;
+}
+.specialColorGray{
+  background-color: rgb(30, 106, 221);
+  color: white;
+}
+.threeSpecial{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  font-size: 20px;
+}
+ 
+.threeSpecial h1, h5 {
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-weight: bold;
+
+}
+#image{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carouselFix{
+height: 600px;
+}
+
+#imageTwo{
+  background-image: url('https://i.ibb.co/bHSbnpp/wind-farm-1209335-1280.jpg');
+  width: 100% !important;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+
+
+#imageThree{
+  background-image: url('https://i.ibb.co/qRTsFvc/wave-1913559-1280.jpg');
+  width: 100% !important;
+  max-width: 100%;
+  height: auto !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+
+
+#imageFour{
+  background-image: url('https://i.ibb.co/bBmS8Xh/analysis-2030265-1280.jpg');
+  width: 100% !important;
+  max-width: 100%;
+  height: auto !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+
+
+#imageFive{
+  background-image: url('https://i.ibb.co/qdTdqY6/agriculture-89168-1920.jpg');
+  width: 100% !important;
+  max-width: 100%;
+  height: auto !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+#cardScroll{
+  overflow: scroll !important;
+  overflow-x: hidden !important;
+}
+
+/* #photoHeader1{
+  padding-bottom: 300px;
+  margin-bottom: 200px;
+} */
+
+.parentContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ 
+}
+
+a.navbar-item:link, a.navbar-item:visited, a.navbar-item:active{
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 20px !important;
+}
+
+a.navbar-link:link, a.navbar-link:visited, a.navbar-link:active{
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 20px !important;
+}
+
+a.navbar-link:hover{
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 20px !important;
+  color: rgb(73, 151, 230) !important;
+}
+
+a.contactUs:hover {
+  color: rgb(73, 151, 230) !important;
+  font-size: 25px !important;
+  font-family:  'Josefin Sans', sans-serif
+}
+
+ a.contactUs:active, a.contactUs:visited, a.contactUs:link {
+  color:white !important;
+  font-size: 25px !important;
+  font-family:  'Josefin Sans', sans-serif;
+}
+.contactUs{
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.card-content{
+  height:150px !important;
+}
+
+.card-action{
+  height: 50px !important;
+}
+
+.navbar-height{
+  height: 100px !important;
+}
+
+.carousel{
+  height: 500px;
+  width: 100%;
+}
+
+.carousel-item{
+  height: 500px; 
+  
+}
+.biggerBottom{
+  height: 100px;
+}
+
+.card-title{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Center carousel */
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centeredHomeText {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
+
+.centeredHome {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 600%);
+}
+.centeredNatureText {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, 100%);
+}
+
+.centeredNature {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, 600%);
+}
+.centeredFieldText {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
+
+.centeredField {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 600%);
+}
+
+.centeredScienceText {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
+.centeredScience {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 590%);
+}
