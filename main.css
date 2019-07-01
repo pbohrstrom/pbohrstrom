@@ -53,6 +53,8 @@ h1{
   }
 }
 
+
+
 .firstDiv{
 font-family: 'Slabo 13px', serif;
 
@@ -291,4 +293,5 @@ a.contactUs:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, 590%);
+
 }
